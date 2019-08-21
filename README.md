@@ -1,12 +1,4 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-# ChuckNorris
-=======
 # Chuck Norris
->>>>>>> 7a42223a89aa18e4606ebb2e1b082c7966b00534
-=======
-# Chuck Norris
->>>>>>> 7a42223a89aa18e4606ebb2e1b082c7966b00534
 Addon for 2.4.3 WoW (The Burning Crusade) that posts Chuck Norris Facts.
 
 With no modifier it will always send a fact to your current General Chat.
@@ -39,12 +31,4 @@ With no modifier it will always send a fact to your current General Chat.
 
 * g OR guild - Guild Channel
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 * o OR officer - Officer Channel
-=======
-* o OR officer - Officer Channel
->>>>>>> 7a42223a89aa18e4606ebb2e1b082c7966b00534
-=======
-* o OR officer - Officer Channel
->>>>>>> 7a42223a89aa18e4606ebb2e1b082c7966b00534
