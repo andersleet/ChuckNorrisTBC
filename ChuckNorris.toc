@@ -1,0 +1,10 @@
+## Interface: 20400
+## Title: Chuck Norris
+## Notes: Chuck Norris Facts
+## Author: andersleet
+## Version 1.0
+
+functions.lua
+ChuckFacts.lua
+ChuckNorris.lua
+ChuckNorris.xml
