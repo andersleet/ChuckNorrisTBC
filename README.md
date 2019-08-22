@@ -4,7 +4,7 @@ Addon for 2.4.3 WoW (The Burning Crusade) that posts Chuck Norris Facts.
 With no modifier it will always send a fact to your current General Chat.
 
 1) Download .ZIP and extract into wow/interface/addons folder. Rename folder from "ChuckNorris-master" to "ChuckNorris".
-2) Slash commands are /cn, /chuck, /norris, and /chucknorris.
+2) Slash commands are /cn, /cnf, /chuck, /norris, and /chucknorris.
 
 ## Modifiers for slash commands*:
 
