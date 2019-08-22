@@ -2,6 +2,7 @@ SLASH_NORRIS1 = "/cn"
 SLASH_NORRIS2 = "/chuck"
 SLASH_NORRIS3 = "/norris"
 SLASH_NORRIS4 = "/chucknorris"
+SLASH_NORRIS5 = "/cnf"
 
 function PostFact(input)
 	--local sS, sE, cmd, arg = strfind(input, "%s?(%w+)%s?(%d*)")
