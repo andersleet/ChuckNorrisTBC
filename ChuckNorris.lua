@@ -5,7 +5,6 @@ SLASH_NORRIS4 = "/chucknorris"
 SLASH_NORRIS5 = "/cnf"
 
 function PostFact(input)
-	--local sS, sE, cmd, arg = strfind(input, "%s?(%w+)%s?(%d*)")
 	local sS, sE, cmd, arg = string.find(input, "%s?(%w+)%s?(%d*)")
 	local channel, n, fact = "CHANNEL", 0, ""
 	
@@ -43,8 +42,6 @@ function PostFact(input)
 		n = 2
 	elseif (cmd == "3" or cmd == "LOCALDEFENSE") then
 		n = 3
-	elseif (cmd == "4" or cmd == "WORLD") then
-		n = 4
 	elseif (cmd == "S" or cmd == "SAY") then
 		channel = "SAY"
 	elseif (cmd == "Y" or cmd == "YELL") then
@@ -59,7 +56,7 @@ function PostFact(input)
 		print(fact)
 		do return end
 	else
-		n = 1	
+		n = tonumber(cmd)
 	end
 
 	SendChatMessage(fact, channel, nil, n)
