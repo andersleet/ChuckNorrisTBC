@@ -57,8 +57,12 @@ function PostFact(input)
 		do return end
 	else
 		n = tonumber(cmd)
+		local id, name = GetChannelName(n)
+		if (id == 0 or name == nil) then					-- if channel doesnt exist, send to general chat
+			n = 1
+		end
 	end
-
+	
 	SendChatMessage(fact, channel, nil, n)
 end
 
